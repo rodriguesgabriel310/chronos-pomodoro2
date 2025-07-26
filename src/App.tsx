@@ -2,15 +2,19 @@ import { Heading } from './components/Heading';
 
 import './styles/theme.css';
 import './styles/global.css';
+import { TimerIcon } from 'lucide-react';
 
 
 
 export function App(){
-    console.log('olá');
-
     return (
     <>
-      <Heading attr={123} attr2='String'>Olá</Heading>
+      <Heading>
+        History
+        <button>
+          <TimerIcon />
+         </button>
+      </Heading>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
         elit. Deleniti, unde repudiandae. Molestias vel optio
          quis, dolore voluptatem velit. Repellendus quod tenetur
